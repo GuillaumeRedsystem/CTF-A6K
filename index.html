@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vente de Voitures</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        h1 {
+            margin: 0;
+        }
+        
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        
+        .car {
+            margin: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+            width: 300px;
+            background-color: #f9f9f9;
+        }
+        
+        .car img {
+            width: 100%;
+            height: auto;
+        }
+        
+        .car h2 {
+            margin-top: 10px;
+            margin-bottom: 5px;
+        }
+        
+        .car p {
+            margin: 0;
+        }
+        
+        .search-bar {
+            margin: 20px auto;
+            text-align: center;
+        }
+        
+        input[type="text"] {
+            padding: 10px;
+            width: 300px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        
+        input[type="submit"] {
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Vente de Voitures</h1>
+</header>
+
+<div class="search-bar">
+    <form action="#" method="GET">
+        <input type="text" name="search" placeholder="Rechercher une voiture">
+        <input type="submit" value="Rechercher">
+    </form>
+</div>
+
+<div class="container">
+    <div class="car">
+        <img src="https://via.placeholder.com/300" alt="Voiture 1">
+        <h2>Voiture 1</h2>
+        <p>Description de la voiture 1.</p>
+        <p>Prix : 10000 €</p>
+        <button>Acheter</button>
+    </div>
+    
+    <div class="car">
+        <img src="https://via.placeholder.com/300" alt="Voiture 2">
+        <h2>Voiture 2</h2>
+        <p>Description de la voiture 2.</p>
+        <p>Prix : 15000 €</p>
+        <button>Acheter</button>
+    </div>
+    
+    <div class="car">
+        <img src="https://via.placeholder.com/300" alt="Voiture 3">
+        <h2>Voiture 3</h2>
+        <p>Description de la voiture 3.</p>
+        <p>Prix : 20000 €</p>
+        <button>Acheter</button>
+    </div>
+</div>
+
+</body>
+</html>
