@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Grec</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f3f3; /* Couleur de fond gris clair */
+            color: #333; /* Couleur du texte principale */
+        }
+        
+        header {
+            background-color: #004466; /* Couleur de fond de l'en-tête */
+            color: #fff; /* Couleur du texte de l'en-tête */
+            padding: 20px;
+            text-align: center;
+        }
+        
+        h1 {
+            margin: 0;
+        }
+        
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        
+        .dish {
+            margin: 10px;
+            border: 1px solid #ddd; /* Bordure gris clair */
+            border-radius: 5px;
+            padding: 10px;
+            width: 300px;
+            background-color: #fff; /* Fond blanc */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ombre légère */
+        }
+        
+        .dish img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px 5px 0 0; /* Coins arrondis seulement en haut */
+        }
+        
+        .dish h2 {
+            margin-top: 10px;
+            margin-bottom: 5px;
+            color: #004466; /* Couleur du titre bleu foncé */
+        }
+        
+        .dish p {
+            margin: 0;
+        }
+        
+        .search-bar {
+            margin: 20px auto;
+            text-align: center;
+        }
+        
+        input[type="text"] {
+            padding: 10px;
+            width: 300px;
+            border-radius: 5px;
+            border: 1px solid #ddd; /* Bordure gris clair */
+        }
+        
+        input[type="submit"] {
+            padding: 10px 20px;
+            background-color: #004466; /* Bouton bleu foncé */
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Restaurant Grec</h1>
+</header>
+
+<div class="search-bar">
+    <form action="#" method="GET">
+        <input type="text" name="search" placeholder="Rechercher un plat grec">
+        <input type="submit" value="Rechercher">
+    </form>
+</div>
+
+<div class="container">
+    <div class="dish">
+        <img src="https://via.placeholder.com/300" alt="Moussaka">
+        <h2>Moussaka</h2>
+        <p>Description de la moussaka.</p>
+        <p>Prix : 10 €</p>
+    </div>
+    
+    <div class="dish">
+        <img src="https://via.placeholder.com/300" alt="Souvlaki">
+        <h2>Souvlaki</h2>
+        <p>Description du souvlaki.</p>
+        <p>Prix : 8 €</p>
+    </div>
+    
+    <div class="dish">
+        <img src="https://via.placeholder.com/300" alt="Tzatziki">
+        <h2>Tzatziki</h2>
+        <p>Description du tzatziki.</p>
+        <p>Prix : 5 €</p>
+    </div>
+</div>
+
+</body>
+</html>
