@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vente de Pâtisseries</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7e9e9; /* Couleur de fond rose clair */
+            color: #555; /* Couleur du texte */
+        }
+        
+        header {
+            background-color: #ffcccc; /* Couleur de fond de l'en-tête */
+            color: #333; /* Couleur du texte de l'en-tête */
+            padding: 20px;
+            text-align: center;
+        }
+        
+        h1 {
+            margin: 0;
+        }
+        
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        
+        .pastry {
+            margin: 10px;
+            border: 1px solid #ff9999; /* Bordure de couleur rose clair */
+            border-radius: 5px;
+            padding: 10px;
+            width: 300px;
+            background-color: #fff; /* Fond blanc */
+        }
+        
+        .pastry img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px 5px 0 0; /* Coins arrondis seulement en haut */
+        }
+        
+        .pastry h2 {
+            margin-top: 10px;
+            margin-bottom: 5px;
+            color: #ff4d4d; /* Couleur du titre rose */
+        }
+        
+        .pastry p {
+            margin: 0;
+        }
+        
+        .search-bar {
+            margin: 20px auto;
+            text-align: center;
+        }
+        
+        input[type="text"] {
+            padding: 10px;
+            width: 300px;
+            border-radius: 5px;
+            border: 1px solid #ff9999; /* Bordure de couleur rose clair */
+        }
+        
+        input[type="submit"] {
+            padding: 10px 20px;
+            background-color: #ff4d4d; /* Bouton rose */
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Vente de Pâtisseries</h1>
+</header>
+
+<div class="search-bar">
+    <form action="#" method="GET">
+        <input type="text" name="search" placeholder="Rechercher une pâtisserie">
+        <input type="submit" value="Rechercher">
+    </form>
+</div>
+
+<div class="container">
+    <div class="pastry">
+        <img src="https://via.placeholder.com/300" alt="Pain Chocolat">
+        <h2>Pain Chocolat</h2>
+        <p>Description du pain chocolat.</p>
+        <p>Prix : 2 €</p>
+    </div>
+    
+    <div class="pastry">
+        <img src="https://via.placeholder.com/300" alt="Croissants">
+        <h2>Croissants</h2>
+        <p>Description des croissants.</p>
+        <p>Prix : 1.50 €</p>
+    </div>
+    
+    <div class="pastry">
+        <img src="https://via.placeholder.com/300" alt="Tortillons au Sucre">
+        <h2>Tortillons au Sucre</h2>
+        <p>Description des tortillons au sucre.</p>
+        <p>Prix : 2.50 €</p>
+    </div>
+</div>
+
+</body>
+</html>
